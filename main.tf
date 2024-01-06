@@ -4,5 +4,6 @@ resource "aws_instance" "server1" {
 
   tags = {
     Name = "revision_server"
+    team = "dev"
   }
 }
