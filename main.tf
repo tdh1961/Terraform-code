@@ -3,7 +3,7 @@ resource "aws_instance" "server1" {
   instance_type = var.instanceType
 
   tags = {
-    Name = "revision_server"
+    Name = "server-sunday"
     team = "dev"
   }
 }
